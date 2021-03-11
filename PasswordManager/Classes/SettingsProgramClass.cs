@@ -108,8 +108,8 @@ namespace PasswordManager.Classes
 
         #region Menu Background
         public SolidColorBrush MenuBackground { get; set; } = Brushes.Transparent;
-        public SolidColorBrush MenuBackgroundMouseOver { get; private set; } = new SolidColorBrush(Color.FromArgb(127, 255, 255, 255));
-        public SolidColorBrush MenuBackgroundPressed { get; private set; } = new SolidColorBrush(Color.FromArgb(127, 255, 255, 255));
+        public SolidColorBrush MenuBackgroundMouseOver { get; set; } = new SolidColorBrush(Color.FromArgb(127, 255, 255, 255));
+        public SolidColorBrush MenuBackgroundPressed { get; set; } = new SolidColorBrush(Color.FromArgb(127, 255, 255, 255));
         public Dictionary<Windows, bool> MenuBackgroundFlags { get; } = new Dictionary<Windows, bool>()
         {
             { Windows.Main, false },
